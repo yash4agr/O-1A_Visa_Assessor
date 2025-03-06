@@ -57,7 +57,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-4. Create a `.env` file in the project root with your Together API key:
+4. Create a `.env` file in the project root with your Together API key (Generate [Together AI API Key here](https://api.together.xyz/settings/api-keys)):
 ```bash
 TOGETHER_API_KEY=your_api_key_here
 ```
@@ -113,7 +113,7 @@ O-1A_Visa_Assessor/
 └── README.md                # Project documentation
 ```
 ### Design Choices and Evaluation
-For a detailed explanation of design choices and evaluation guidelines, see [Design document](/assets/design.pdf).
+For a detailed explanation of design choices and evaluation guidelines, see [Design document](assets/Visa-Assessment-Tool-Design.pdf).
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
