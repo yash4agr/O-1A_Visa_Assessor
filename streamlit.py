@@ -40,7 +40,7 @@ if uploaded_file:
                     # Prepare the file for the API request
                     files = {"cv": (uploaded_file.name, uploaded_file, uploaded_file.type)}
                     
-                    # Make the API request to your FastAPI backend
+                    # Make the API request to FastAPI backend
                     response = requests.post(
                         "http://localhost:8000/api/v1/assess",
                         files=files
@@ -71,7 +71,7 @@ if uploaded_file:
                                 highest_conf = max(match.get('confidence', 0) for match in matches)
                                 criteria_confidence[criterion] = highest_conf
                         
-                        # Sort criteria by highest confidence (descending)
+                        # Sort criteria by highest confidence
                         sorted_criteria = sorted(
                             criteria_confidence.keys(),
                             key=lambda x: criteria_confidence[x],
