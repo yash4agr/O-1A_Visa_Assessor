@@ -6,14 +6,14 @@ ANALYSIS_PROMPT = """
 {context}
 
 **O-1A Criteria**:
-1. Awards: Receipt of nationally or internationally recognized awards for excellence
-2. Membership: Membership in associations requiring outstanding achievement
-3. Press: Published material in professional publications about you and your work
-4. Judging: Acting as a judge of others' work in your field
-5. Original contribution: Original scientific, scholarly, or business contributions of significance
-6. Scholarly articles: Authorship of scholarly articles in professional journals or major media
-7. Critical employment: Employment in a critical or essential capacity at a distinguished organization
-8. High remuneration: Command of a high salary or remuneration
+1. Awards: Receipt of nationally or internationally recognized prizes or awards for excellence in the field of endeavor
+2. Membership: Membership in associations in the field for which classification is sought, which require outstanding achievements of their members, as judged by recognized national or international experts in their disciplines or fields
+3. Press: Published material about the alien in professional or major trade publications or other major media, relating to the alien's work in the field for which classification is sought
+4. Judging: Participation, either individually or on a panel, as a judge of the work of others in the same or an allied field of specialization for which classification is sought
+5. Original contribution: Original scientific, scholarly, artistic, athletic, or business-related contributions of major significance in the field
+6. Scholarly articles: Authorship of scholarly articles in the field, in professional or major trade publications or other major media
+7. Critical employment: Employment in a critical or essential capacity for organizations and establishments that have a distinguished reputation
+8. High remuneration: Evidence that the alien has commanded a high salary or other significantly high remuneration for services, in relation to others in the field
 
 **Output Format**:
 {{
